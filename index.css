@@ -1,0 +1,49 @@
+.h1_titulo {
+	text-align: center;
+}
+
+.h2_titulo_parag {
+  font-family: cursive, serif;
+  color: rgb(255, 153, 0);
+  font-size: large;
+}
+
+.texto-underline {
+    text-decoration: underline;
+}
+
+.texto-negrito {
+	font-weight: bold;
+}
+
+.texto-italico {
+	font-style: italic;	
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+.div_contato {
+   margin-top: 15px;
+}
+
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*retira o item da lista*/
+#lista_contatos{
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+ 
+/*alinhamento do icone*/
+#li_fone i{
+  font-size: 1.0em;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-size: 24px;
+}
